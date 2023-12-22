@@ -50,6 +50,20 @@ body {
     padding-top: 0.25em;
 }
 
+.position {
+    font-size: 1.6em;
+    font-family: Tanker;
+    color: #111;
+    text-align: center;
+    
+    width: 1.6em;
+    height: 1.6em;
+    border-radius: 128px;
+    background-color: #ccc;
+    margin-left: 1em;
+    padding-top: 0.25em;
+}
+
 .position-up {
     font-size: 1.6em;
     font-family: Tanker;
