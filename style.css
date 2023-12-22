@@ -119,18 +119,18 @@ body {
 .discord {
     position: fixed;
     top: 5%;
-    right: 5%;
+    left: 72%;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
     .discord {
       position: relative;
       top: 0;
-      right: 0;
+      left: 0;
     }
   }
 
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 800px) {
     .row {
       width: 100%;
     }
