@@ -2,7 +2,6 @@ body {
     background-color: #111;
     color: white;
     font-family: Tanker;
-    margin-left: 1.25em;
 }
 
 @font-face {
@@ -30,8 +29,8 @@ body {
     color: pink;
 }
 
-.top40 {
-
+.script {
+    margin-left: 1.25em;
 }
 
 .week {
