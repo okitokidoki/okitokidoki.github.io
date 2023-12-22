@@ -121,3 +121,15 @@ body {
     top: 5%;
     left: 72%;
 }
+
+@media screen and (max-width: 480px) {
+    .discord {
+      position: relative;
+    }
+  }
+
+  @media  screen and (max-width: 480px) {
+    .row {
+      width: 100%;
+    }
+  }
