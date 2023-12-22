@@ -23,6 +23,7 @@
         console.log(Intl.DateTimeFormat().resolvedOptions().timeZone)
         var timeStamp = new Date("2023-12-29T05:00:00.000Z"); 
         //ISO date format
+        document.write("The end of the next tracking week in your timezone is:");
         document.write(timeStamp.toLocaleString('en-US', { timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone }))
     </script>
     <div class="discord">
