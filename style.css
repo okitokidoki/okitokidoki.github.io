@@ -1,7 +1,6 @@
 body {
     background-color: #111;
     background-image: url(blurredtd4.1.png);
-    background-position: center;
     color: white;
     font-family: Clash Grotesk;
 }
@@ -47,7 +46,12 @@ body {
 }
 
 @media only screen and (max-width: 1000px) {
-    .inline {
-      font-size: 2.5em;
+    .inline h3 {
+      font-size: 5em;
+    }
+
+    .penguin {
+        width: 80px;
+        height: 80px;
     }
 }
