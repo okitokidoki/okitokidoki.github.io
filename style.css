@@ -26,13 +26,17 @@ body {
 }
 
 .musiclist {
-    margin-left: 10%;
-    padding: 5%;
+    margin-left: 4%;
 }
 
 .penguin {
     width: 45px;
     height: 45px;
+}
+
+.release {
+    width: 25%;
+    text-wrap: wrap;
 }
 
 @media only screen and (max-width: 1000px) {
