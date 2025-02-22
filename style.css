@@ -1,13 +1,19 @@
 body {
     background-color: #111;
     background-image: url(blurredtd4.1.png);
+    background-position: center;
     color: white;
-    font-family: Tanker;
+    font-family: Clash Grotesk;
 }
 
 @font-face {
     font-family: Tanker;
     src: url(Tanker-Regular.otf);
+}
+
+@font-face {
+    font-family: Clash Grotesk;
+    src: url(ClashGrotesk-Regular.otf);
 }
 
 .navigation {
@@ -31,111 +37,8 @@ body {
     color: pink;
 }
 
-.week {
-    margin-left: 1.25em;
-    font-size: 1.6em;
-    font-family: Tanker;
-    color: #ccc;
-}
-
-.placement {
-    font-size: 1.6em;
-    font-family: Tanker;
-    color: #111;
-    text-align: center;
-    
-    width: 1.6em;
-    height: 1.6em;
-    border-radius: 128px;
-    background-color: #ccc;
-    margin-left: 1.25em;
-    padding-top: 0.25em;
-}
-
-.position {
-    font-size: 1.6em;
-    font-family: Tanker;
-    color: #111;
-    text-align: center;
-    
-    width: 1.6em;
-    height: 1.6em;
-    border-radius: 128px;
-    background-color: #ccc;
-    margin-left: 1em;
-    padding-top: 0.25em;
-}
-
-.position-up {
-    font-size: 1.6em;
-    font-family: Tanker;
-    color: #111;
-    text-align: center;
-    
-    width: 1.6em;
-    height: 1.6em;
-    border-radius: 128px;
-    background-color: #32a644;
-    margin-left: 1em;
-    padding-top: 0.25em;
-}
-
-.position-down {
-    font-size: 1.6em;
-    font-family: Tanker;
-    color: #111;
-    text-align: center;
-    
-    width: 1.6em;
-    height: 1.6em;
-    border-radius: 128px;
-    background-color: #a63232;
-    margin-left: 1em;
-    padding-top: 0.25em;
-}
-
-.row {
-    width: 60%;
-    display: flex;
-    align-items: center;
-}
-
-.pfp {
-    width: 10em;
-    height: 10em;
-    margin-left: 1em;
-    border-radius: 8px;
-}
-
-.user {
-    font-size: 1.6em;
-    margin-left: 0.5em;
-}
-
-.points {
-    font-size: 1.6em;
-    margin-left: 1em;
-    color: #999;
-}
-
-.discord {
-    position: fixed;
-    top: 5%;
-    left: 72%;
-}
-
-@media only screen and (max-width: 1000px) {
-    .discord {
-      position: relative;
-      top: 5%;
-      left: 5%;
-    }
-}
-
-@media only screen and (max-width: 1000px) {
-    .row {
-      width: 100%;
-    }
+.inline {
+    display: inline;
 }
 
 @media only screen and (max-width: 1000px) {
