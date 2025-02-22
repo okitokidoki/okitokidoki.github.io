@@ -1,5 +1,5 @@
 body {
-    background-color: #111;
+    background-color: rgb(166, 107, 117);
     background-image: url(blurredtd4.1.png);
     color: white;
     font-family: Clash Grotesk;
@@ -15,25 +15,9 @@ body {
     src: url(ClashGrotesk-Regular.otf);
 }
 
-.navigation {
-    width: 100%;
-    text-align: center;
-    display: flex;
-    font-size: 1.8em;
-    font-family: Tanker;
-}
-
-.navigation p {
-    margin-left: 1.25em;
-}
-
-.navigation a {
-    color: white;
-    text-decoration-style: none;
-}
-
-.navigation a:hover {
-    color: pink;
+.coverart {
+    width: 25%;
+    height: 25%;
 }
 
 .inline {
@@ -47,7 +31,7 @@ body {
 
 @media only screen and (max-width: 1000px) {
     .inline h3 {
-      font-size: 5em;
+      font-size: 200%;
     }
 
     .penguin {
